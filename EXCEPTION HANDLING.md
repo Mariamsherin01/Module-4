@@ -4,31 +4,46 @@
 ---
 
 ### AIM  
-To create a Python program that prompts the user for a list of grades separated by commas, splits the string into individual grades, and uses exception handling to inform the user if the values they entered cannot be converted to integers.
+To write a Python program that handles the exception caused by trying to add an integer to a string, and prints a specific error message without crashing the program.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read a string `input_str` from the user using `input()`.  
-3. Split the input string using commas (`,`) to create a list of grades.  
-4. Use a `try` block to attempt converting each item in the grades list to an integer and store the result in `l1`.  
-5. If the conversion is successful, print the list `l1` containing the integer values.  
-6. If an error occurs during conversion (for example, if the input is not a valid number), catch the exception and print an error message: `"The grades you entered were in an invalid format."` along with the original grades list.  
-7. Terminate the program.
+1.Write a code block that tries to add an integer to a string (e.g., "hello" + 5).
+
+2.Wrap the operation inside a try block to monitor for exceptions.
+
+3.Use an except Exception block to catch any exception that may occur.
+
+4.Inside the except block, print the message: "You can't add int to string".
+
+5.This ensures the program handles the error gracefully without terminating unexpectedly.
+
+
 
 ---
 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
+Reg.No 212222060143
+Name Mariam Sherin
+#Type your answer below.
+
+a="Hello World!"
+try:
+    a + 10
+
+except:
+    msg="You can't add int to string"
+
+print(msg)
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/086d9020-f45e-478d-9456-323ba0231027)
 
 ### RESULT
+Thus, The  Python program that handles the exception caused by trying to add an integer to a string, and prints a specific error message without crashing the program was implemented and executed successfully.
