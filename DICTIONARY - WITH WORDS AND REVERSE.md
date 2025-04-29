@@ -1,5 +1,5 @@
 # Exp.No:19  
-## CLASS AND OBJECTS - Creating a Dictionary with Words and Their Reverses from User Input
+## DICTIONARY - Creating a Dictionary with Words and Their Reverses from User Input
 
 ---
 
